@@ -54,7 +54,7 @@ function App() {
     }
   }, [board]);
 
-  // Handle square click
+  // Handle square click condition
   const handleClick = (index: number) => {
     // Return if square is filled or game is over
     if (board[index] || gameStatus !== 'playing') return;
